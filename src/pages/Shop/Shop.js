@@ -1,5 +1,12 @@
+import { Button } from '~/components';
+
 function Shop() {
-    return <h1>SHOP</h1>;
+  return (
+    <div>
+      <h1>SHOP</h1>
+      <Button />
+    </div>
+  );
 }
 
 export default Shop;
